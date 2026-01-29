@@ -1,4 +1,4 @@
-import Home from "./Pages/Home";
+import Home from "./Pages/Home/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 const routerRoutes = [
