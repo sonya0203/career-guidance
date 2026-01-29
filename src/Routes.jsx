@@ -15,5 +15,4 @@ const routerRoutes = [
     element: <Contact />,
   },
 ];
-
 export default routerRoutes;
