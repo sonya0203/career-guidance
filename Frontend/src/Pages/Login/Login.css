@@ -1,0 +1,107 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.login-left {
+  flex: 1;
+  padding: 60px;
+}
+
+.login-left h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.login-card {
+  width: 350px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-card h2 {
+  margin-bottom: 5px;
+}
+
+.login-card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-card button:hover {
+  background: #1e40af;
+}
+
+.login-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.login-footer a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-right img {
+  max-width: 80%;
+}
+
+.error-message {
+  background-color: #fee;
+  color: #c33;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.demo-credentials {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f0f9ff;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.demo-credentials small {
+  color: #0369a1;
+  font-size: 12px;
+}
+
+.login-card button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
